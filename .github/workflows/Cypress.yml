@@ -1,0 +1,10 @@
+name: Cypress_test
+on: push
+
+jobs: 
+  Cypress_test: 
+    runs-on : ubuntu-latest
+
+    steps: 
+      - name: cypress.io
+        run: echo "cypress Assignment"
